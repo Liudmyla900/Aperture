@@ -177,4 +177,5 @@ header nav li:last-of-type a{
 }
 .for_git{
     background-color: antiquewhite;
+    max-width: 1000px;
 }
