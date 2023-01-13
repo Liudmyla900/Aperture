@@ -432,3 +432,129 @@ header nav li:last-of-type a{
     line-height: 20px;
     color: #C0C0C0;
 }
+footer{
+    padding-top: 92px;
+    padding-bottom: 100px;
+    background: #000000;
+}
+footer .menu{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    align-items: flex-start;
+    border-bottom: 1px solid #FFFFFF;
+}
+footer .logo img{
+    margin-bottom: 20px;
+}
+.logo p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 165px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu li{
+    margin-bottom: 10px
+}
+.menu li a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu li:first-of-type{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.subscribe{
+    padding-top: 36px;
+    padding-bottom: 36px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #FFFFFF;
+}
+.subscribe h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.subscribe p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.subscribe form{
+    max-width: 458px;
+    height: 52px;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    display: flex;
+}
+.subscribe input{
+    width: 80%;
+    border: none;
+    background-color: transparent;
+}
+.subscribe button {
+    width: 20%;
+    background: #000000;
+    border-radius: 11px;
+}
+.licence{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+.licence p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.social_icons{
+    right: 40px;
+    bottom: 40px;
+    display: flex;
+    list-style: none;
+    color: #C0C0C0;
+    align-items: flex-end;
+}
+.social_icons li i{
+    font-size: 24px
+    background: #C0C0C0;
+    margin-right: 20px;
+}
+.social_icons li:last-child i{
+    margin-right: 0;
+}
+.social_icons li a{
+    text-decoration: none;
+    color: #C0C0C0;;
+}
