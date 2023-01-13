@@ -9,6 +9,7 @@ header{
 .container{
     max-width: 1200px;
     margin: auto;
+    padding: 0 15px;
 }
 header nav ul{
     display: flex;
@@ -487,6 +488,7 @@ footer .logo img{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #FFFFFF;
+    align-items: center;
 }
 .subscribe h4{
     font-family: 'Poppins', sans-serif;
@@ -509,19 +511,23 @@ footer .logo img{
 }
 .subscribe form{
     max-width: 458px;
+    width: 100%;
     height: 52px;
     background: #F9FAFB;
     border: 1px solid #E5E7EB;
     border-radius: 12px;
     display: flex;
+    padding: 11px 6px;
+    box-sizing: border-box;
 }
 .subscribe input{
-    width: 80%;
+    width: 85%;
+    display: block;
     border: none;
     background-color: transparent;
 }
 .subscribe button {
-    width: 20%;
+    width: 15%;
     background: #000000;
     border-radius: 11px;
 }
