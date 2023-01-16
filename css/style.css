@@ -545,22 +545,16 @@ footer .logo img{
     color: #C0C0C0;
 }
 .social_icons{
-    right: 40px;
-    bottom: 40px;
     display: flex;
     list-style: none;
     color: #C0C0C0;
     align-items: flex-end;
 }
 .social_icons li i{
-    font-size: 24px
-    background: #C0C0C0;
-    margin-right: 20px;
-}
-.social_icons li:last-child i{
-    margin-right: 0;
+    font-size: 24px;
+    margin-left: 20px;
 }
 .social_icons li a{
     text-decoration: none;
-    color: #C0C0C0;;
+    color: #C0C0C0;
 }
