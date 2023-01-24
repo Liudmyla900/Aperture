@@ -11,6 +11,10 @@ header{
     margin: auto;
     padding: 0 15px;
 }
+.main_logo{
+    position: relative;
+    z-index: 99;
+}
 header nav ul{
     display: flex;
     list-style: none;
@@ -47,6 +51,9 @@ header nav li:last-of-type a{
     background: #FFFFFF;
     border-radius: 14px;
     padding: 11px 20px;
+}
+header nav li:last-of-type:hover a{
+    color: #000000;
 }
 /*main_banner*/
 .main_banner{
